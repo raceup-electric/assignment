@@ -12,20 +12,27 @@ To let everyone develop and test the code, the assignment is based on the Wokwi 
 - Comments that explain what you are doing and your way of thinking are very welcomed
 - The only allowed library is ```Wire.h``` for i2c, **NO OTHER INCLUDES ALLOWED**
 
-### Instructions for the VS Code extension (Recommended)
-
-1. Clone the repository ```git clone https://github.com/raceup-electric/assignment```
-2. Install the Arduino extension from the VS Code marketplace
-3. Install the Wokwi extension (you are asked to login do it, don't worry it is free)
-4. Everything is already set up you just need to edit the assignment.ino file
-5. To compile the sketch open the command palette (```Ctrl/Cmd+Shift+P ```) and select ```Arduino: Verify```
-6. To run the sketch open the command palette (```Ctrl/Cmd+Shift+P ```) and select ```Wokwi: Start Simulator```
-
-### Instructions for the browser
+### Instructions for Wokwi on browser (Recommended)
 
 1. Create a new empty Arduino Uno example
 2. Copy the content of this repository ```diagram.json``` into the one in the browser
 3. Code on the provided .ino file
+
+### Instructions for the VS Code extension
+
+1. Clone the repository ```git clone https://github.com/raceup-electric/assignment```
+2. Install the Arduino extension from the VS Code marketplace
+3. Install the Wokwi extension (you are asked to login do it, don't worry it is free)
+4. Check the box for ```Arduino: Use Arduino CLI``` in VS Code settings
+5. Reload the editor
+6. Open the command palette (```Ctrl/Cmd+Shift+P```) and select ```Arduino: Initialize```
+7. Open the command palette (```Ctrl/Cmd+Shift+P```) and select ```Arduino: Board Manager``` then install Arduino AVR Boards
+8. Select Arduino Uno on the bottom bar
+9. Everything is already set up you just need to edit the assignment.ino file
+10. To compile the sketch open the command palette (```Ctrl/Cmd+Shift+P ```) and select ```Arduino: Verify```
+11. To run the sketch open the command palette (```Ctrl/Cmd+Shift+P ```) and select ```Wokwi: Start Simulator```
+
+If you can't make it work on VS Code use Wokwi.
 
 ### How to hand in your work
 
